@@ -1,42 +1,17 @@
-@import url(http://fonts.googleapis.com/css?family=Lato);
-@import url(http://fonts.googleapis.com/css?family=Inconsolata);
 @import "normalize.min.css";
+@import "theme-default.less";
 
-// solarized <3
-// http://ethanschoonover.com/solarized
-@base03: #002b36;
-@base02: #073642;
-@base01: #586e75;
-@base00: #657b83;
-@base0: #839496;
-@base1: #93a1a1;
-@base2: #eee8d5;
-@base3: #fdf6e3;
-@yellow: #b58900;
-@orange: #cb4b16;
-@red: #dc322f;
-@magenta: #d33682;
-@violet: #6c71c4;
-@blue: #268bd2;
-@cyan: #2aa198;
-@green: #859900;
+// ----------------------------------------------------------------------------
+// themes
+// ----------------------------------------------------------------------------
 
-@font-color: @base01;
-@border-color: @base1;
-@background-color: @base3;
-@background-active-color: @base2;
-@accent1-color: @green;
-@accent2-color: @cyan;
-@spacing: 1em;
-
-@sans: 'Lato', sans-serif;
-@monospace: 'Inconsolata', monospace;
+//@import "theme-hotline.less";
 
 // ----------------------------------------------------------------------------
 // mixins
 // ----------------------------------------------------------------------------
 
-.border(@top: 1px, @right: 1px, @bottom: 1px, @left: 1px) {
+.border(@top: @border-width, @right: @border-width, @bottom: @border-width, @left: @border-width) {
     border-color: @border-color;
     border-style: solid;
     border-width: @top @right @bottom @left;
@@ -51,6 +26,7 @@ html, body {
     background-color: @background-color;
     font-family: @sans;
     text-align: justify;
+    font-size: @base-font-size;
 }
 
 // ----------------------------------------------------------------------------
@@ -66,12 +42,17 @@ a:hover {
     color: @accent2-color;
 }
 
+pre,
+code {
+    font-family: @monospace;
+    font-size: @monospaced-font-size;
+}
+
 pre {
     padding: @spacing @spacing*2;
-    font-family: @monospace;
 
     code {
-        font-family: @monospace;
+       font-size: 1em;
     }
 }
 
@@ -88,7 +69,7 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 h1, h2, h3 {
-    .border(0, 0, 1px, 0);
+    .border(0, 0, @border-width, 0);
 }
 
 h1 {
@@ -116,7 +97,7 @@ h6 {
 }
 
 hr {
-    .border(0, 0, 1px, 0);
+    .border(0, 0, @border-width, 0);
 }
 
 p {
@@ -125,6 +106,7 @@ p {
 
 ul {
     padding-left: @spacing*2;
+    list-style-type: @list-style-type;
 }
 
 // ----------------------------------------------------------------------------
@@ -224,8 +206,12 @@ ul {
         }
 
         li:hover {
+            color: @active-font-color;
             background-color: @background-active-color;
-            opacity: 0.9;
+
+            > a {
+                color: @active-font-color;
+            }
 
             ul {
                 left: 0;
