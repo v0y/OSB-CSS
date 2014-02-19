@@ -64,7 +64,8 @@ blockquote {
 h1, h2, h3, h4, h5, h6 {
     text-align: center;
     font-weight: bold;
-    margin: @spacing 0;
+    padding-top: @spacing;
+    margin: 0 @spacing/4 @spacing;
     clear: both;
 }
 
@@ -102,6 +103,10 @@ hr {
 
 p {
     padding: 0 @spacing;
+}
+
+ol {
+    margin-left: @spacing;
 }
 
 ul {
