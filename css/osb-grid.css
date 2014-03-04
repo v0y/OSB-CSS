@@ -14,33 +14,63 @@
   position: relative;
   min-height: 1px;
 }
-.container .row .col-1 {
-  width: 10%;
-}
-.container .row .col-2 {
-  width: 20%;
-}
-.container .row .col-3 {
-  width: 30%;
-}
-.container .row .col-4 {
-  width: 40%;
-}
 .container .row .col-5 {
-  width: 50%;
-}
-.container .row .col-6 {
-  width: 60%;
-}
-.container .row .col-7 {
-  width: 70%;
-}
-.container .row .col-8 {
-  width: 80%;
-}
-.container .row .col-9 {
-  width: 90%;
+  width: 5%;
 }
 .container .row .col-10 {
+  width: 10%;
+}
+.container .row .col-15 {
+  width: 15%;
+}
+.container .row .col-20 {
+  width: 20%;
+}
+.container .row .col-25 {
+  width: 25%;
+}
+.container .row .col-30 {
+  width: 30%;
+}
+.container .row .col-35 {
+  width: 35%;
+}
+.container .row .col-40 {
+  width: 40%;
+}
+.container .row .col-45 {
+  width: 45%;
+}
+.container .row .col-50 {
+  width: 50%;
+}
+.container .row .col-55 {
+  width: 55%;
+}
+.container .row .col-60 {
+  width: 60%;
+}
+.container .row .col-65 {
+  width: 65%;
+}
+.container .row .col-70 {
+  width: 70%;
+}
+.container .row .col-75 {
+  width: 75%;
+}
+.container .row .col-80 {
+  width: 80%;
+}
+.container .row .col-85 {
+  width: 85%;
+}
+.container .row .col-90 {
+  width: 90%;
+}
+.container .row .col-95 {
+  width: 95%;
+}
+.container .row .col-100 {
   width: 100%;
 }
