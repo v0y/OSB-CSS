@@ -1,11 +1,6 @@
 @import "normalize.min.css";
 @import url(http://fonts.googleapis.com/css?family=Lato);
 @import url(http://fonts.googleapis.com/css?family=Inconsolata);
-*,
-::before,
-::after {
-  box-sizing: border-box;
-}
 .container {
   margin-left: auto;
   margin-right: auto;
