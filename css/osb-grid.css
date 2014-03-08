@@ -74,3 +74,63 @@
 .container .row .col-100 {
   width: 100%;
 }
+.container .row .offset-5 {
+  margin-left: 5%;
+}
+.container .row .offset-10 {
+  margin-left: 10%;
+}
+.container .row .offset-15 {
+  margin-left: 15%;
+}
+.container .row .offset-20 {
+  margin-left: 20%;
+}
+.container .row .offset-25 {
+  margin-left: 25%;
+}
+.container .row .offset-30 {
+  margin-left: 30%;
+}
+.container .row .offset-35 {
+  margin-left: 35%;
+}
+.container .row .offset-40 {
+  margin-left: 40%;
+}
+.container .row .offset-45 {
+  margin-left: 45%;
+}
+.container .row .offset-50 {
+  margin-left: 50%;
+}
+.container .row .offset-55 {
+  margin-left: 55%;
+}
+.container .row .offset-60 {
+  margin-left: 60%;
+}
+.container .row .offset-65 {
+  margin-left: 65%;
+}
+.container .row .offset-70 {
+  margin-left: 70%;
+}
+.container .row .offset-75 {
+  margin-left: 75%;
+}
+.container .row .offset-80 {
+  margin-left: 80%;
+}
+.container .row .offset-85 {
+  margin-left: 85%;
+}
+.container .row .offset-90 {
+  margin-left: 90%;
+}
+.container .row .offset-95 {
+  margin-left: 95%;
+}
+.container .row .offset-100 {
+  margin-left: 100%;
+}
