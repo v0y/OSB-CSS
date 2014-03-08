@@ -132,6 +132,17 @@
 .container .row .offset-100 {
   margin-left: 100%;
 }
+.container:before,
+.container:after,
+.row:before,
+.row:after {
+  content: "";
+  display: table;
+}
+.container:after,
+.row:after {
+  clear: both;
+}
 html,
 body {
   color: #555555;

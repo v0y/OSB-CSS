@@ -173,3 +173,22 @@
         }
     }
 }
+
+
+// ----------------------------------------------------------------------------
+// micro clearfix hack
+// http://nicolasgallagher.com/micro-clearfix-hack/
+// ----------------------------------------------------------------------------
+
+.container:before,
+.container:after,
+.row:before,
+.row:after {
+    content:"";
+    display:table;
+}
+
+.container:after,
+.row:after {
+    clear:both;
+}
