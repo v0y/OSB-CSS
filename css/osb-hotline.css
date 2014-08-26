@@ -1,6 +1,6 @@
+@import url(http://fonts.googleapis.com/css?family=Press+Start+2P);
+@import url(http://fonts.googleapis.com/css?family=VT323);
 @import "normalize.min.css";
-@import url(http://fonts.googleapis.com/css?family=Lato);
-@import url(http://fonts.googleapis.com/css?family=Inconsolata);
 .container {
   margin-left: auto;
   margin-right: auto;
@@ -145,23 +145,23 @@
 }
 html,
 body {
-  color: #555555;
-  background-color: #eaf3ee;
-  font-family: 'Lato', sans-serif;
+  color: #ff00ff;
+  background-color: #0000bb;
+  font-family: 'Press Start 2P', sans-serif;
   text-align: justify;
   font-size: 1em;
 }
 a {
-  color: #bb235c;
+  color: #ffff00;
   text-decoration: none;
 }
 a:hover {
-  color: #a31d52;
+  color: #ff8800;
 }
 pre,
 code {
-  font-family: 'Inconsolata', monospace;
-  font-size: 1em;
+  font-family: 'VT323', monospace;
+  font-size: 1.2em;
 }
 pre {
   padding: 1em 2em;
@@ -188,9 +188,9 @@ h6 {
 h1,
 h2,
 h3 {
-  border-color: #555555;
+  border-color: #ff00ff;
   border-style: solid;
-  border-width: 0 0 1px 0;
+  border-width: 0 0 3px 0;
 }
 h1 {
   font-size: 2em;
@@ -211,9 +211,9 @@ h6 {
   font-size: 1em;
 }
 hr {
-  border-color: #555555;
+  border-color: #ff00ff;
   border-style: solid;
-  border-width: 0 0 1px 0;
+  border-width: 0 0 3px 0;
 }
 p {
   padding: 0 1em;
@@ -223,7 +223,7 @@ ol {
 }
 ul {
   padding-left: 2em;
-  list-style-type: disc;
+  list-style-type: square;
 }
 #nav {
   margin-top: -1em;
@@ -240,7 +240,7 @@ ul {
   left: 50%;
 }
 #nav ul a {
-  color: #555555;
+  color: #ff00ff;
   display: block;
   padding: 0.5em 2em;
   white-space: nowrap;
@@ -251,20 +251,20 @@ ul {
   margin: 0;
 }
 #nav ul li:hover {
-  color: #555555;
-  background-color: #e2ebe6;
+  color: #0000bb;
+  background-color: #ff00ff;
 }
 #nav ul li:hover > a {
-  color: #555555;
+  color: #0000bb;
 }
 #nav ul li:hover ul {
   left: 0;
 }
 #nav ul ul {
-  border-color: #555555;
+  border-color: #ff00ff;
   border-style: solid;
-  border-width: 1px 1px 1px 1px;
-  background-color: #eaf3ee;
+  border-width: 3px 3px 3px 3px;
+  background-color: #0000bb;
   list-style: none;
   position: absolute;
   left: -9999px;
