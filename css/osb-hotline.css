@@ -1,5 +1,5 @@
-@import url(http://fonts.googleapis.com/css?family=Press+Start+2P);
-@import url(http://fonts.googleapis.com/css?family=VT323);
+@import url(http://fonts.googleapis.com/css?family=Ubuntu+Mono&subset=latin,latin-ext);
+@import url(http://fonts.googleapis.com/css?family=Arimo&subset=latin,latin-ext);
 @import "normalize.min.css";
 .container {
   margin-left: auto;
@@ -145,22 +145,22 @@
 }
 html,
 body {
-  color: #ff00ff;
-  background-color: #0000bb;
-  font-family: 'Press Start 2P', sans-serif;
+  color: #1a1a1a;
+  background-color: #e6e6e6;
+  font-family: 'Arimo', sans-serif;
   text-align: justify;
   font-size: 1em;
 }
 a {
-  color: #ffff00;
+  color: #29aae4;
   text-decoration: none;
 }
 a:hover {
-  color: #ff8800;
+  color: #e12c63;
 }
 pre,
 code {
-  font-family: 'VT323', monospace;
+  font-family: 'Ubuntu Mono', monospace;
   font-size: 1.2em;
 }
 pre {
@@ -188,7 +188,7 @@ h6 {
 h1,
 h2,
 h3 {
-  border-color: #ff00ff;
+  border-color: #1a1a1a;
   border-style: solid;
   border-width: 0 0 3px 0;
 }
@@ -211,7 +211,7 @@ h6 {
   font-size: 1em;
 }
 hr {
-  border-color: #ff00ff;
+  border-color: #1a1a1a;
   border-style: solid;
   border-width: 0 0 3px 0;
 }
@@ -240,7 +240,7 @@ ul {
   left: 50%;
 }
 #nav ul a {
-  color: #ff00ff;
+  color: #1a1a1a;
   display: block;
   padding: 0.5em 2em;
   white-space: nowrap;
@@ -251,20 +251,20 @@ ul {
   margin: 0;
 }
 #nav ul li:hover {
-  color: #0000bb;
-  background-color: #ff00ff;
+  color: #e6e6e6;
+  background-color: #1a1a1a;
 }
 #nav ul li:hover > a {
-  color: #0000bb;
+  color: #e6e6e6;
 }
 #nav ul li:hover ul {
   left: 0;
 }
 #nav ul ul {
-  border-color: #ff00ff;
+  border-color: #1a1a1a;
   border-style: solid;
   border-width: 3px 3px 3px 3px;
-  background-color: #0000bb;
+  background-color: #e6e6e6;
   list-style: none;
   position: absolute;
   left: -9999px;
