@@ -150,6 +150,7 @@ body {
   font-family: 'Arimo', sans-serif;
   text-align: justify;
   font-size: 1em;
+  margin-bottom: 25px;
 }
 a {
   color: #29aae4;
@@ -171,7 +172,12 @@ pre code {
 }
 blockquote {
   font-style: italic;
-  margin: 1em;
+  text-align: center;
+  margin: 0 1em 2em;
+  padding: 0;
+}
+blockquote p {
+  margin: 0;
 }
 h1,
 h2,

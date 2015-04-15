@@ -1,6 +1,9 @@
 @import url(http://fonts.googleapis.com/css?family=Ubuntu+Mono&subset=latin,latin-ext);
 @import url(http://fonts.googleapis.com/css?family=Arimo&subset=latin,latin-ext);
 @import "normalize.min.css";
+img {
+  box-shadow: 0 0 15px 0 rgba(50, 50, 50, 0.75);
+}
 .container {
   margin-left: auto;
   margin-right: auto;
@@ -145,11 +148,12 @@
 }
 html,
 body {
-  color: #1a1a1a;
-  background-color: #ffffff;
+  color: #2e2e2e;
+  background-color: #e0e0e0;
   font-family: 'Arimo', sans-serif;
   text-align: justify;
   font-size: 1em;
+  margin-bottom: 25px;
 }
 a {
   color: #29aae4;
@@ -171,7 +175,12 @@ pre code {
 }
 blockquote {
   font-style: italic;
-  margin: 1em;
+  text-align: center;
+  margin: 0 1em 2em;
+  padding: 0;
+}
+blockquote p {
+  margin: 0;
 }
 h1,
 h2,
@@ -188,7 +197,7 @@ h6 {
 h1,
 h2,
 h3 {
-  border-color: #1a1a1a;
+  border-color: #2e2e2e;
   border-style: solid;
   border-width: 0 0 1px 0;
 }
@@ -211,7 +220,7 @@ h6 {
   font-size: 1em;
 }
 hr {
-  border-color: #1a1a1a;
+  border-color: #2e2e2e;
   border-style: solid;
   border-width: 0 0 1px 0;
 }
@@ -240,7 +249,7 @@ ul {
   left: 50%;
 }
 #nav ul a {
-  color: #1a1a1a;
+  color: #2e2e2e;
   display: block;
   padding: 0.5em 2em;
   white-space: nowrap;
@@ -251,20 +260,20 @@ ul {
   margin: 0;
 }
 #nav ul li:hover {
-  color: #ffffff;
-  background-color: #1a1a1a;
+  color: #e0e0e0;
+  background-color: #2e2e2e;
 }
 #nav ul li:hover > a {
-  color: #ffffff;
+  color: #e0e0e0;
 }
 #nav ul li:hover ul {
   left: 0;
 }
 #nav ul ul {
-  border-color: #1a1a1a;
+  border-color: #2e2e2e;
   border-style: solid;
   border-width: 1px 1px 1px 1px;
-  background-color: #ffffff;
+  background-color: #e0e0e0;
   list-style: none;
   position: absolute;
   left: -9999px;
